@@ -5,7 +5,8 @@
 	"author": "kevinlin505 <kevinlin505@hotmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"start": "nodemon server.js"
+		"start": "node server.js",
+		"dev": "nodemon server.js"
 	},
 	"dependencies": {
 		"express": "^4.17.1",
