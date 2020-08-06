@@ -1,0 +1,31 @@
+GET http://localhost:3000/accounts
+
+###
+
+GET http://localhost:3000/accounts/5f2b519f24d00c2c0fe4ad76
+
+###
+
+POST http://localhost:3000/accounts HTTP/1.1
+content-type: application/json
+
+{"balance":"1189.44","credit":683,"picture":"https://i.pravatar.cc/476","name_first":"Kevin","name_last":"Lin","employer":"Insurety","email":"cheri.rice@insurety.net","phone":7120744246,"address":"150 Kossuth Place, Aberdeen, Virginia, 4119","comments":"Id dolor cillum et qui dolor minim. Duis dolore in enim aliqua pariatur esse laboris dolore amet. Labore mollit velit occaecat officia esse cupidatat. Mollit ipsum exercitation irure mollit duis. Nisi exercitation anim tempor nulla irure. Velit sint esse enim exercitation id excepteur nulla id sunt dolore. Ex occaecat incididunt excepteur consequat ea mollit cupidatat sit enim in do cillum pariatur.","created":"Fri May 25 2018 05:57:45 GMT+0000","tags":["ex","amet","adipisicing"]}
+
+
+###
+
+PATCH http://localhost:3000/accounts/5f2b519f24d00c2c0fe4ad76 HTTP/1.1
+content-type: application/json
+
+{
+  "employer": "Curalate",
+  "email":"kl@test.com",
+  "phone":7120744246,
+  "address":"200 70ST, Brooklyn, New York, 1126",
+  "comments": "Better comment"
+}
+
+###
+
+DELETE  http://localhost:3000/accounts/5f2b519224d00c2c0fe4ad75 HTTP/1.1
+

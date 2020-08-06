@@ -1,0 +1,21 @@
+{
+	"name": "landis_challenge",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "kevinlin505 <kevinlin505@hotmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.9.27"
+	},
+	"devDependencies": {
+		"dotenv": "^8.2.0",
+		"nodemon": "^2.0.4"
+	},
+	"engines": {
+		"node": "12.6.0"
+	}
+}
